@@ -8,8 +8,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu{
+body {
+    background-color: bisque;
     display: flex;
+    flex-direction: column;
+    height: min-content;
+    min-height: 100%;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 15px 40px;
     justify-content: space-between;
     gap: 15px;
@@ -75,10 +86,6 @@
     cursor: pointer;
 }
 
-body {
-    background-color: bisque;
-}
-
 .content{
     margin: 10px;
     padding: 10px;
@@ -86,6 +93,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;  
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .content text{
@@ -129,7 +138,7 @@ body {
     height: 180px;
     align-items: center;
     padding-left: 160px;
-    gap: 100px;
+    gap: 90px;
 }
 
 .booking{
@@ -139,7 +148,7 @@ body {
     border-radius: 8px;
     color: white;
     background-color: rgb(38, 95, 215);
-    padding: 15px;
+    padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 14px;
@@ -152,8 +161,26 @@ body {
     border-radius: 8px;
     color: rgb(122, 69, 0);
     background-color: bisque;
-    padding: 15px;
+    padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 14px;   
 }
+
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    padding-left: 40px;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(212, 164, 101);
+    align-items: center;
+    color: white;
+    font-size: 12px; 
+}
+
+footer img{
+    height: 20px;
+}
+
