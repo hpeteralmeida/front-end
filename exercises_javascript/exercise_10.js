@@ -1,0 +1,1 @@
+// funcao que mostra a media dos valores de uma lista 
